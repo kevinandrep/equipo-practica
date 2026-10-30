@@ -1,1 +1,1 @@
-# equipo-practica - version A
+# equipo-practica - version A y B
