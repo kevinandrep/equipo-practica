@@ -1,2 +1,2 @@
-# equipo-practica - version A y B
+# equipo-practica
 Repositorio de practica de Git y GitHub en equipo.
