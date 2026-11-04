@@ -1,0 +1,18 @@
+name: Revision basica
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el codigo
+        uses: actions/checkout@v4
+
+      - name: Mostrar los archivos del repo
+        run: ls -la
+
+      - name: Comprobar que el README tiene titulo
+        run: grep -q "^# " README.md
